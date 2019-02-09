@@ -1,4 +1,6 @@
-var https = require('https'),
+#!/usr/bin/env node
+
+const https = require('https'),
     fs = require('fs'),
     path = require('path'),
     minimist = require('minimist'),
@@ -22,7 +24,7 @@ var parseArgv = function(shortArg, longArg, typeArg, defaultVal) {
         argVal = defaultVal;
     }
     return argVal;
-}
+};
 
 var help = parseArgv('help', 'h', 'boolean', false),
     host = parseArgv('host', 'u', 'string', '127.0.0.1'),
@@ -39,7 +41,7 @@ if (help) {
   -d, --docpath            set document directory's path
   -k, --key                set SSL key's path
   -c, --cert               set SSL certificate's path
-	`);
+    `);
 } else {
     var app = express();
     console.log('Server root is', docpath);
@@ -55,10 +57,10 @@ if (help) {
                 app.use('/', express.static(docpath));
                 console.log('Listening at https://' + host + ':' + port);
             } else {
-            	console.log('Invalid "cert" file path!');
+                console.log('Invalid "cert" file path!');
             }
         } else {
-        	console.log('Invalid "key" file path!');
+            console.log('Invalid "key" file path!');
         }
     } else {
         app.use('/', express.static(docpath));

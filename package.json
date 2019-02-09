@@ -20,5 +20,8 @@
   "dependencies": {
     "express": "^4.16.4",
     "minimist": "^1.2.0"
+  },
+  "bin": {
+    "avityam": "./avityam.js"
   }
 }
