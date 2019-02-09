@@ -1,6 +1,6 @@
 {
   "name": "avityam",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A secured server based on HTTPS over local machine",
   "main": "avityam.js",
   "scripts": {
