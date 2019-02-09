@@ -1,0 +1,24 @@
+{
+  "name": "Avityam",
+  "version": "1.0.0",
+  "description": "A secured server based on HTTPS over local machine",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo 'Error: no test specified' && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/isurfer21/Avityam.git"
+  },
+  "author": "Abhishek Kumar",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/isurfer21/Avityam/issues"
+  },
+  "homepage": "https://github.com/isurfer21/Avityam#readme",
+  "dependencies": {
+    "express": "^4.16.4",
+    "minimist": "^1.2.0"
+  }
+}
