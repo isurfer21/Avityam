@@ -1,5 +1,5 @@
 {
-  "name": "Avityam",
+  "name": "avityam",
   "version": "1.0.0",
   "description": "A secured server based on HTTPS over local machine",
   "main": "avityam.js",
