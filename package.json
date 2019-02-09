@@ -2,10 +2,10 @@
   "name": "Avityam",
   "version": "1.0.0",
   "description": "A secured server based on HTTPS over local machine",
-  "main": "server.js",
+  "main": "avityam.js",
   "scripts": {
     "test": "echo 'Error: no test specified' && exit 1",
-    "start": "node server.js"
+    "start": "node avityam.js"
   },
   "repository": {
     "type": "git",
